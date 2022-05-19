@@ -8,7 +8,7 @@ MLB_09.01.G1._10
 <tr><th>Registration No</th><th>Name</th><th>Contact No</th></tr>
 <tr><th>IT21167928</th><th>Kumara I.K.S.K</th><th>0775039521</th></tr>
 <tr><th>IT21168772</th><th>Chathuranga K.H.D</th><th>0761193338 </th></tr>
-<tr><th>IT21168536</th><th>Lakshan R.K.C</th><th>070 1797406</th></tr>
+<tr><th>IT21168536</th><th>Lakshan R.K.C</th><th>078 3251301</th></tr>
 <tr><th>IT21172014</th><th>Karunarathna L.M.J.T</th><th>0768350160</th></tr>
 <tr><th>IT21169830</th><th>Ariyasinghe K.S.K.G</th><th>0753735488</th></tr>
 </table>
