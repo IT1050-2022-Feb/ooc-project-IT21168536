@@ -3,12 +3,13 @@
 #include "seller.h"
 #include "person.h"
 #include "Admin.h"
+#include "property.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-  
+  //IT21168536
  Person p1;
 	p1.display();
     
@@ -31,7 +32,7 @@ int main()
     delete b1;
     delete A1;
 
-  
+  //IT21169830 
     //Report class
   Report r1 = Report(001,01,"Lands");
 	r1.displayReport();
