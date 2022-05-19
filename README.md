@@ -1,7 +1,22 @@
-echo "# ooc-project-IT21168536" >> README.md
-git init
-README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/IT1050-2022-Feb/ooc-project-IT21168536.git
-git push -u origin main
+
+OOC-Project-IT1050 created by GitHub Classroom\
+\
+Members and Tasks: \
+---------------------------------------------\
+IT21168536   Lakshan R.K.C  \
+*Person, *buyer, *Seller, *Admin\
+\
+IT21169830   Ariyasinghe K.S.K.G  \
+*Admin, *report\
+\
+IT21172014   Karunarathna L.M.J.T \
+*buyer, *Property\
+\
+IT21168772   Chathuranga K.H.D  \
+*Seller, *property,\
+\
+IT21167928   kumara I.K.S.K \
+*Admin, *Property \
+--------------------------------------------- \
+\
+Thank you...!
