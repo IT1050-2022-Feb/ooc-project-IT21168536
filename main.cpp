@@ -39,7 +39,15 @@ int main()
 	
 	Report r2 = Report(002,02,"Houses");
 	r2.displayReport();
+	
+//IT21167928 
+  property*pty = new Property();// property class
+	
+	//Method Calling
+     property->displayProperty();
+	//--------Deleting Dynamic object--------
+     delete property;
+	
+return 0;
 
-  
-  return 0;
 }
