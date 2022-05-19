@@ -1,5 +1,5 @@
+//IT21168772 
 #include "Seller.h"
-
 #define size 2
 
 class property {
