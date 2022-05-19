@@ -1,12 +1,9 @@
-//IT21168536
+//IT21172014
 #include <iostream>
-#include "buyer.h"
-#include "Property.h"
-#include<cstring>
-using namespace std;
+#include <buyer.h>
+#include <string>
 
-buyer::buyer()
-{}
+using namespace std;   
 
 buyer::buyer(int B_ID, string B_Name, string C_Num, string eml)
 {
@@ -15,22 +12,18 @@ buyer::buyer(int B_ID, string B_Name, string C_Num, string eml)
 	contactNumber = C_Num;
 	Email = eml;
 }
-
-void AddProperty(Property* prp)
-{
+void buyer :: Display(){
+	cout << "This is a buyer class" << endl;
 }
-void buyer::displayBuyer()
-{
+void buyer :: DisplayBuyer(){
+	
 	cout << "buyerID :" << Buyer_ID << endl;
 	cout << "buyer name :" << Name << endl;
 	cout << "buyer contactnumber :" << contactNumber << endl;
 	cout << "buyer email :" << Email << endl << endl;
 }
-void buyer::Display()
-{
-	cout << "This is a buyer class" << endl;
-}
-buyer :: ~buyer()
-{
+buyer :: ~buyer(){
+	
 	cout << "Destuctor called" << endl;
+	
 }
