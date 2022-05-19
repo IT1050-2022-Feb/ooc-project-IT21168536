@@ -1,60 +1,40 @@
-//IT21167928 
+//it21167928
+
+
+
 #include <iostream>
-#include<string.h>
+#include <cstring>
+#include "property.h"
+
 
 using namespace std;
-class Property
+
+
+//class implementation
+property ::property()
+
 {
- 
-private:
-	int proprtyID;
-	char propertyType[50];
-	char propertyLocation[50];
-	double propertyPrice;
-	double contactNo;
+  propertyID = 0;
+  strcpy(propertyType,"");
+  strcpy(propertyLocation,"");
+  propertyPrice = 0 ;
+}
 
-public:
-    Property();
-	void Propertydetails()
-	{
-		cout<<"\n Enter the details for Property \n ";
-		cout<<"\n Property ID:\t";
-		cin>> proprtyID;
-		cout<<"\n Enter the Property Type:\t";
-		cin>> propertyType;
-		cout<<"\n Enter the Property location:\t";
-		cin>> propertyLocation;
-		cout<<"\n Enter the property Price:\t";
-		cin>> propertyPrice;
-	}
+property ::property(const int pID,const string pType,const string pLct,const pPrice):property(pID,pType,pLoc,pPrc)
+  propertyID = pID;
+  strcpy(propertyType,pType);
+  strcpy(propertyLocation,pLct);
+  propertyPrice = pPrc ;
 
-
-	void displayPropertydetails()
-	{
-		cout<<"\n Enter the details for Property \n ";
-		cout<<"\n Property ID:\t"<<proprtyID;
-		cout<<"\n Enter the Property Type:\t"<<propertyType;
-		cout<<"\n Enter the Property location:\t"<<propertyLocation;
-		cout<<"\n Enter the property Price:\t"<<propertyPrice;
-	}
-
-};
-
-
-
-int main()
+//overiding function
+void property::DisplayProperty()
 {
-  char name[50];
-  double ContactNo ;
-  cout<<"\n WELCOME TO ONLINE PROPERTY SALES SYSTEM  \n";
-  
-  Property p;  //create object
-  cout<<"\n\n";
-  cout<<"\n Enter property Details\n";
-  cout<<"\n Enter the property Name:\t";//get the 
-  cin>>name;
- 
-  cout<<"\n enter contact  number:\t";
-  cin>>ContactNo;
-  P.Propertydetails();//calling function
-  }
+  cout << "property ID: " << propertyID << endl;
+  cout << "property type: " << propertyType << endl;
+  cout << "property Location: " << propertyLocation << endl;
+  cout << "property price: " << propertyPrice << endl;
+}
+property::~property()
+{
+	cout << "property deleted" << endl;
+}
