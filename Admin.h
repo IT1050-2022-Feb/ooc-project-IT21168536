@@ -1,3 +1,4 @@
+//IT21168536
 #include "Person.h"
 #include "Property.h"
 #define SIZE 2 
