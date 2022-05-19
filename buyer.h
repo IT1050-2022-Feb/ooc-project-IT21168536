@@ -1,4 +1,4 @@
-//IT21172014 
+//IT21168536
 #include <person.h>
 class buyer : public person
 {
