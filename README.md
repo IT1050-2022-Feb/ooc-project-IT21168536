@@ -12,3 +12,26 @@ MLB_09.01.G1._10
 <tr><th>IT21172014</th><th>Karunarathna L.M.J.T</th><th>0768350160</th></tr>
 <tr><th>IT21169830</th><th>Ariyasinghe K.S.K.G</th><th>0753735488</th></tr>
 </table>
+
+
+
+Members and Tasks: \
+---------------------------------------------\
+IT21168536   Lakshan R.K.C \
+*Person, *buyer, *Seller, *Admin\
+\
+IT21169830   Ariyasinghe K.S.K.G  \
+*Admin, *Report \
+\
+IT21172014   Karunarathna L.M.J.T \
+*buyer, *Property \
+
+IT21168772   Chathuranga K.H.D   \
+*Seller, *Property \
+\
+IT21167928   kumara I.K.S.K   \
+*Admin, *Propert \
+\
+--------------------------------------------- \
+\
+Thank you...!
